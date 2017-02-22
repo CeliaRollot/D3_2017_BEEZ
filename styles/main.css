@@ -1,0 +1,123 @@
+body {
+  background: #F5C842;
+  background-size: contain;
+}
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ol li {
+  border : 1px solid #000;
+  width : 160px;
+  margin : 6px;
+}
+
+
+li img {
+    width: 100%;
+}
+
+header {
+  overflow: hidden;
+  background: #9C3B14;
+  border-radius: 28px;
+
+}
+
+#logo {
+  width : 266px;
+  float: left;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+  display: block;
+  padding: 1em;
+  color : #F5C842;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+
+#color-1 {
+ background-color: #3F606B;
+}
+
+#color-2 {
+ background-color: #6B4A3F;
+}
+
+#color-3 {
+ background-color: #C47C08;
+}
+
+#color-4 {
+ background-color: #DEA03C;
+}
+#color-5 {
+ background-color: #7F7385;
+}
+#color-6 {
+ background-color: #966218;
+}
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+ text-transform: uppercase;
+ font-size: 2em;
+
+}
+
+#colors li {
+  height : 160px;
+  width : 160px;
+  border-radius: 22px;
+  color : #F5C842;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+
+video {
+  border : 1em solid #9C3B14;
+  border-radius: 2em;
+  display: block;
+  width : 680px;
+  margin: 2em auto;
+  padding : 18px;
+}
+
+.page-navigation-block {
+  padding: 0.5em;
+  overflow: hidden;
+  background: #9C3B14;
+  border-radius: 28px;
+}
+
+.page-navigation-block a {
+  display: block;
+  max-width: 220px;
+  padding: 2em;
+  color: #F5C842;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.next {
+  float: right;
+}
+
+.previous {
+  float: left;
+}
